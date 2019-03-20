@@ -1,12 +1,19 @@
 ﻿using System;
 
-namespace Car
+namespace CarClass
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Car CorollaIm = new Car();
+
+            CorollaIm.GasLevel = 10f;
+            CorollaIm.GetGas(3); 
+
+
         }
     }
+
+    
 }
